@@ -161,7 +161,7 @@ BATCH_SIZE = 32
 num_train_images = len(train_generator.index_array)
 num_validation_images = len(validation_generator.index_array)
 
-MODEL_NAME = "InceptionV3"
+MODEL_NAME = "Xception"
 
 MODEL_FILE = 'drive/My Drive/Dataset/' + MODEL_NAME + '.model'
 
