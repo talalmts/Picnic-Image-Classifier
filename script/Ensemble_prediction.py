@@ -23,11 +23,11 @@ import matplotlib.pyplot as plt
 
 
 #Load the model for ensemble prediction
-model_Xcep = load_model("drive/My Drive/Dataset/XceptionV3_finetune60_model_weights.h5")
+model_Xcep = load_model("drive/My Drive/Dataset/Xception_model_weights.h5")
 
-model_IncV3 = load_model("drive/My Drive/Dataset/InceptionV3_finetune60_model_weights.h5")
+model_IncV3 = load_model("drive/My Drive/Dataset/InceptionV3_model_weights.h5")
 
-model_IncResE150 = load_model("drive/My Drive/Dataset/InceptionResNetV2_epoch5_fine_tune_at100_epoch150_model_weights.h5")
+model_IncResE150 = load_model("drive/My Drive/Dataset/InceptionResnetV2_model_weights.h5")
 
 models = [model_Xcep, model_IncV3, model_IncResE150]
 
